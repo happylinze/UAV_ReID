@@ -48,12 +48,13 @@ python3 tools/main.py --config_file='configs/AGW_uavhuman.yml' MODEL.DEVICE_ID "
 
 To test a AGW model with on UAV-Human with weight file ```'/home/user/Orange_ReID/log/uavhuman/Experiment-AGW-uavhuman/resnet152_nl_model_120.pth'```,_(You should to replace the path with your file path)_.
 
-If you want to do a quick test, you can download the [checkpoint]() and replace the path for TEST.WEIGHT with the path of the checkpoint you downloaded.
+If you want to do a quick test, you can download the [checkpoint](https://drive.google.com/file/d/1RlHnofQ3J9xzcSUSd7ToQ6YbL2njcCoF/view?usp=drive_link) and replace the path for TEST.WEIGHT with the path of the checkpoint you downloaded.
 
 Run similarly:
 ```
 python3 tools/main.py --config_file='configs/AGW_uavhuman.yml' MODEL.DEVICE_ID "('0')" DATASETS.NAMES "('uavhuman')"  MODEL.PRETRAIN_CHOICE "('self')" TEST.WEIGHT "('/home/user/Orange_ReID/log/uavhuman/Experiment-AGW-uavhuman/resnet152_nl_model_120.pth')" TEST.EVALUATE_ONLY "('on')" OUTPUT_DIR "('./log/Test')"
 ```
+
 
 ### Acknowledgement
 
