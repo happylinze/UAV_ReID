@@ -1,7 +1,7 @@
 # MMVRAC2024-Track12-Solution
 
 Welcome to the MMVRAC2024 Track12 solution repository. This repository contains the implementation of our approach for the Track12 challenge.
-You can also obtain the code from Google Drive: [link](https://drive.google.com/drive/folders/1yaC7T5pJaX8gU-v_7VFGr-UmGekB2jhF?usp=drive_link).
+You can also obtain the code from Google Drive: [Link](https://drive.google.com/drive/folders/1yaC7T5pJaX8gU-v_7VFGr-UmGekB2jhF?usp=drive_link).
 
 ## Dataset
 To get started with the solution, you'll need access to the UAV-Human dataset. Please refer to the following link to obtain the dataset and read the instructions for setup: [UAV-Human Dataset](https://github.com/sutdcv/UAV-Human)
