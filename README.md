@@ -12,7 +12,7 @@ To replicate our results or use the solution as a starting point for your experi
 #### 1. Prepare dataset 
 Create a directory to store reid datasets under this repo.
 ```
-cd Orange_ReID
+cd UAV_ReID
 mkdir toDataset
 ```
 - Download the pre-trained ResNet model file `resnet152-b121ed2d.pth` from [the link](https://drive.google.com/drive/folders/1vm2DwShFCFumrt0Hod8o_HsCejAnXTwM?usp=drive_link) and place it in the `pre-train` directory within your project.
